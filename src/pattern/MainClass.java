@@ -59,7 +59,7 @@ public class MainClass {
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-				System.out.println("New input stream açılmadı dostum: ");
+				System.out.println("New input stream açılmadı dostum:asdasdasdsad ");
 			}
 
 }
