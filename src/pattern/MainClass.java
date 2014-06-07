@@ -24,7 +24,7 @@ public class MainClass {
 	
 	public static void main(String[] args){
 		
-			Path f = Paths.get("/home/aydan/workspace/java/pattern/src/pattern/data0.htm");
+			Path f = Paths.get(new File("").getAbsolutePath()+"/src/pattern/data0.htm");
 			
 			try {
 				in = Files.newInputStream(f,new OpenOption[] {StandardOpenOption.READ});
@@ -59,7 +59,7 @@ public class MainClass {
 			} catch (IOException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
-				System.out.println("New input stream açılmadı dostum");
+				System.out.println("New input stream açılmadı dostum: ");
 			}
 
 }
